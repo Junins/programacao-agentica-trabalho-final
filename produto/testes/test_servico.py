@@ -77,3 +77,11 @@ class Caso(unittest.TestCase):
         self.recusa("inválido", s.criar_atividade, "X", "ontem", "hoje", 1)
         self.recusa("uma vaga", s.criar_atividade, "X", "2027-05-10T20:00", "2027-05-10T21:00", 0)
         self.recusa("inexistente", s.inscrever, "Ana", "a@x.org", [999])
+
+    def test_atividade_repetida_no_formulario_conta_uma_vez(self):
+        codigo = s.inscrever(self.con, "Ana", "ana@x.org", [self.a, self.a])
+        self.assertEqual(len(s.inscricoes_da_pessoa(self.con, self.id_de(codigo))), 1)
+
+    def test_encerrado_nao_aceita_atividade_nova(self):
+        s.encerrar(self.con)
+        self.recusa("encerrado", s.criar_atividade, "X", "2027-05-10T20:00", "2027-05-10T21:00", 1)

@@ -8,6 +8,7 @@ from http.server import ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlencode
 
+import paginas
 import servidor
 
 
@@ -74,9 +75,22 @@ class Http(unittest.TestCase):
         st, _, _ = self.pedir("POST", "/coordenacao/encerrar", {}, Silencioso.senha, Origin="http://mau.example")
         self.assertEqual(st, 403)
 
+    def test_formulario_do_proprio_site(self):
+        self.criar()
+        host = "127.0.0.1:%d" % self.srv.server_address[1]
+        st, _, _ = self.pedir("POST", "/inscrever", {"nome": "Ana", "email": "ana@x.org", "atividade": 1},
+                              Origin="http://" + host)
+        self.assertEqual(st, 303)
+        c = http.client.HTTPConnection(*self.srv.server_address)
+        c.request("GET", "/")
+        # Com no-referrer o navegador mandaria Origin: null (ver registro, etapa 3a).
+        self.assertEqual(c.getresponse().getheader("Referrer-Policy"), "same-origin")
+        c.close()
+
     def test_html_escapado(self):
         self.criar("<script>1</script>")
         self.assertNotIn("<script>1", self.pedir("GET", "/")[1])
+        self.assertNotIn("<script>1", paginas.certificado({"nome": "<script>1", "minutos": 60, "validacao": "X"}))
         self.assertNotIn('"><script>', self.pedir("GET", '/validar?codigo=%22%3E%3Cscript%3E')[1])
 
     def test_entradas_tortas(self):

@@ -88,7 +88,8 @@ class Pedido(BaseHTTPRequestHandler):
         self.send_response(status)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         self.send_header("Content-Length", str(len(dados)))
-        self.send_header("Referrer-Policy", "no-referrer" if status == 200 else "same-origin")
+        # "no-referrer" faria o navegador mandar "Origin: null" e o POST ser recusado.
+        self.send_header("Referrer-Policy", "same-origin")
         for nome, valor in (extras or {}).items():
             self.send_header(nome, valor)
         self.end_headers()

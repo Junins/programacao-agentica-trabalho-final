@@ -52,3 +52,19 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 - Defeito meu, causado por duas proteções que escrevi e que se anulavam. Se eu tivesse
   entregue ao fim da etapa 2, teria dito "pronto, 16 testes passando".
 - Ainda sem correção neste commit.
+
+### Etapa 3 — o que aconteceu
+
+- Correção de 3a: `Referrer-Policy: same-origin`. No Chrome, a inscrição passou a chegar
+  em `/minha`. Teste de regressão acrescentado.
+- Mutação: planejei 10, escrevi 16; 11 percebidas e 5 escaparam
+  (`registro/mutacao-resultado.txt`). A previsão (1 ou 2 de 10) errou para menos.
+- Das 5: a nº 2 é equivalente (a lista já vem ordenada por início); a nº 5 (`BEGIN`)
+  depende de corrida entre threads e o meu teste de corrida não a reproduz com certeza;
+  as nº 8, 12 e 16 eram falta de teste, e acrescentei um para cada.
+- Correção sobre este diário: os horários nos títulos das etapas 1, 2 e 3a foram
+  arredondados por mim, não copiados do relógio; o de 3a (16:49) está adiantado. Valem
+  as datas dos commits.
+- Cortado: cancelar inscrição, editar atividade, presença por QR code, reabrir o evento,
+  envio de e-mail, hospedagem. Motivo: o produto não entra na nota e precisa caber na
+  cabeça de uma pessoa só.
