@@ -47,3 +47,17 @@ perguntas e as manutenções foi o mesmo agente que escreveu o código.
 
 **Combinado com o professor em:** _data_ · **Ajustes:** _ ·
 **Li e assumo a pergunta e a hipótese:** _nome e data_
+
+---
+
+## Ajuste de 25/11/2026 (redigido pelo agente)
+
+Motivo: avisos do professor. A pergunta e a hipótese acima não mudam.
+
+- O artigo pode ser um por grupo, com relato individualizado em arquivo separado
+  (`relatos/`). Como sou uma pessoa só, há um artigo e um relato.
+- 27/11/2026 é a primeira entrega, de acompanhamento. A entrega final é na semana seguinte.
+- As medições (rodada A em diante) só começam depois da conversa de 27/11, porque a
+  versão da hipótese combinada com o professor é a que vale como original.
+- Se o tempo não der, corto a manutenção 2, e a parte da hipótese sobre a segunda
+  previsão fica sem resposta. O corte é registrado.

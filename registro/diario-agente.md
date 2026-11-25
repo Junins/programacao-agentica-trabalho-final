@@ -98,3 +98,13 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
   preparar a página da primeira entrega e refazer a ordem. Espero 5 min.
 - Onde acho que vai dar problema: o aviso não diz formato nem tamanho do relato, e quatro
   semanas viraram menos de duas para quem está começando agora.
+
+### Etapa 6 — o que aconteceu
+
+- Relato separado do artigo, ajuste acrescentado à proposta, página da primeira entrega e
+  nova ordem no `README.md`. A pergunta e a hipótese não foram alteradas.
+- Erro meu: escrevi que o artigo "é" um por grupo; o aviso diz "pode ser". Corrigido antes
+  do commit.
+- O relato tem só estrutura e perguntas. O formato dele é suposição minha.
+- O plano anterior punha a rodada A depois da conversa com o professor; mantive, e por
+  isso nada foi medido até 27/11.
