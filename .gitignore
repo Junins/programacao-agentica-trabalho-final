@@ -1,0 +1,7 @@
+*.db
+__pycache__/
+# material do professor: não é nosso para publicar
+enunciado.pdf
+cenarios.pdf
+# dados locais da coordenação
+.env
