@@ -1,0 +1,79 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Quem ainda entende este código?</title>
+<style>
+/* Medidas do modelo de artigos da SBC: A4, margens 3,5/2,5/3/3 cm, Times 12 */
+@page{size:A4;margin:3.5cm 3cm 2.5cm 3cm}
+body{font:12pt/1.15 "Times New Roman",Times,serif;text-align:justify;margin:0}
+h1{font-size:16pt;text-align:center;margin:12pt 0}
+.autor,.inst,.mail,.resumo{text-indent:0!important}span.falta{border:0;padding:0}.autor{text-align:center;font-weight:bold;margin:12pt 0 0}.inst{text-align:center;margin:12pt 0 6pt}.mail{text-align:center;font:10pt "Courier New",monospace}
+.resumo{margin:6pt .8cm;font-style:italic}.resumo b{font-style:italic}
+h2{font-size:13pt;text-align:left;margin:12pt 0 0;break-after:avoid}h3{font-size:12pt;text-align:left;margin:10pt 0 0;break-after:avoid}
+p{margin:6pt 0 0;text-indent:1.27cm}h2+p,h3+p,table+p,.sem{text-indent:0}
+blockquote{margin:6pt .8cm;text-indent:0}blockquote p{text-indent:0}
+table{border-collapse:collapse;margin:4pt auto 6pt;font-size:10.5pt;break-inside:avoid}td,th{border:.5pt solid #000;padding:2pt 5pt;text-align:left}
+.leg{font:bold 10pt Helvetica,Arial,sans-serif;text-align:center;text-indent:0;margin-top:8pt;break-after:avoid}
+.falta{background:#fff2a8;text-indent:0;border-left:3pt solid #c90;padding:2pt 5pt;margin-top:6pt}
+ul{margin:4pt 0 0;padding-left:1cm}li{margin-top:2pt}.ref p{text-indent:-.5cm;padding-left:.5cm}code{font:10.5pt "Courier New",monospace}
+</style></head><body>
+<h1>Quem ainda entende este código?<br>Explicar e manter o que um agente construiu a partir de uma frase</h1>
+<p class="autor">[SEU NOME COMPLETO]</p>
+<p class="inst">Ciência da Computação – Instituto Federal Sul-rio-grandense (IFSul)<br>Campus Passo Fundo – RS – Brasil</p>
+<p class="mail">[seu e-mail]</p>
+<p class="falta"><b>RASCUNHO.</b> O que está em amarelo ainda não aconteceu ou só você pode escrever. Apague cada caixa ao preencher, a partir do seu diário.</p>
+<p class="resumo"><b>Resumo.</b> Pedi a um agente, em uma frase, que fizesse um trabalho de quatro semanas. Ele construiu um sistema de inscrição, presença e certificado e registrou o próprio percurso. Este artigo relata o que isso deixou para eu entender e manter. <span class="falta">[resultado das rodadas A e B e das manutenções]</span></p>
+
+<p class="resumo"><b>Abstract.</b> <span class="falta">[versão em inglês do resumo final; o modelo da SBC pede as duas em artigos em português]</span></p>
+<h2>1. Curiosidade e hipótese</h2>
+<p>A proposta é de 25 de novembro de 2026 (commit <code>093d28b</code>, anterior a qualquer código). O texto dela foi redigido pelo agente; a pergunta e a hipótese foram:</p>
+<blockquote><p><b>Pergunta:</b> consigo explicar e manter um código que um agente escreveu quase sozinho, a partir de um pedido curto?</p>
+<p><b>Hipótese:</b> espero conseguir explicar o caminho principal (inscrição, presença, certificado) e errar nas regras que o agente decidiu sem me perguntar, porque um pedido curto deixa buracos e quem preenche é ele. Espero também que a primeira manutenção sem agente leve mais tempo do que eu prever, e que a previsão da segunda erre menos, porque nessa altura já terei lido o código.</p></blockquote>
+<p class="falta">Assumi ou mudei? Se mudou: versão nova, data e motivo. Versão combinada com o professor e data.</p>
+<p>A pergunta tem um antecedente antigo. Para Naur (1985), o que quem programa constrói é uma teoria do programa, e ela não está toda no texto do código. Se for assim, receber código pronto não é receber a teoria.</p>
+
+<h2>2. Cenário e como observei</h2>
+<p>A pessoa do cenário é fictícia: a coordenação de um curso, que organiza a semana acadêmica com formulário, planilha e certificado feito à mão e pede “inscrição, presença e certificado num lugar só”, com certificado “só pra quem veio mesmo”. O cenário parte da sugestão 8 da disciplina. O produto é um sistema web em Python, sem dependências externas e sem IA dentro: o problema é de regras e registro.</p>
+<p>Trabalhei individualmente; não houve parte feita em grupo. A divisão foi entre mim e o agente (Claude Code 2.1.332, modelo claude-opus-5-5, Windows 10, Python 3.13). Os commits dele saem com autor “Claude Code (agente)”, de modo que o <code>git blame</code> separa as linhas. Observo a mim com duas rodadas de seis perguntas respondidas sem executar o programa, conferidas depois por um script que executa as situações, e com duas manutenções, uma sem agente e outra com.</p>
+<p class="falta">O que foi ajustado com o professor. Teto de gasto: ___. Gasto: ___. Horas: ___.</p>
+
+<h2>3. O que aconteceu</h2>
+<h3>3.1. A parte do agente, em 25/11/2026</h3>
+<p>O meu pedido inteiro foi: “Faça o trabalho. Ele pode ser feito individualmente.” A partir dele o agente escolheu a pergunta, o cenário e a hipótese. Entre o primeiro commit (16:45) e o da correção (16:51) passaram-se cerca de seis minutos, sem que eu revisasse nada no meio. A Tabela 1 compara as previsões dele, escritas antes, com o que ele registrou depois.</p>
+<p class="leg">Tabela 1. Previsões do agente e resultados (registro/diario-agente.md)</p>
+<table><tr><th>Etapa</th><th>Previu</th><th>Aconteceu</th></tr>
+<tr><td>Regras e banco</td><td>10 min; testes achariam 1 ou 2 erros</td><td>cerca de 1,5 min; nenhum erro achado</td></tr>
+<tr><td>Servidor e páginas</td><td>5 min; problema em senha ou escape</td><td>16 testes verdes de primeira</td></tr>
+<tr><td>Navegador</td><td>formulário falharia</td><td>falhou: erro 403 no Chrome</td></tr>
+<tr><td>Mutação</td><td>1 ou 2 de 10 escapariam</td><td>5 de 16 escaparam; 2 depois de novos testes</td></tr></table>
+<p>O episódio principal está no commit <code>3f10dba</code>: com 16 de 16 testes verdes, o formulário de inscrição era recusado no Chrome. Uma proteção mandava o navegador não revelar a origem; a outra recusava formulário de origem diferente. Cada uma é razoável e juntas se anulavam, porque com a política <code>no-referrer</code> o navegador envia <code>Origin: null</code> [WHATWG 2026]. Os testes não enviavam origem, e por isso não viam. Depois, o agente estragou o código de propósito, técnica conhecida como teste de mutação [DeMillo et al. 1978]: dos 16 defeitos plantados, os testes perceberam 11 e, com três testes novos, 14. Dos dois restantes, um não muda o comportamento e o outro depende de concorrência.</p>
+<p>O registro dele também tem falhas, anotadas por ele: horários arredondados nas primeiras etapas, uma etapa sem previsão e um erro de shell, repetido, cuja causa não investigou.</p>
+<h3>3.2. A minha parte</h3>
+<p class="falta">Rodada A: acertos no caminho principal (1–3) e nas decisões (4–6), confiança média em cada grupo. Rodada B (1–3 e 4–6), idem.</p>
+<p class="leg">Tabela 2. Minhas previsões e resultados (registro/meu-diario.md)</p>
+<table><tr><th>Etapa</th><th>Previ antes de ler</th><th>Previ depois de ler</th><th>Levou</th></tr>
+<tr><td>Manutenção 1, sem agente</td><td class="falta"></td><td class="falta"></td><td class="falta"></td></tr>
+<tr><td>Manutenção 2, com agente</td><td class="falta"></td><td class="falta"></td><td class="falta"></td></tr></table>
+<p class="falta">Conte cada manutenção: o que achou que mexeria, o que mexeu, onde travou, o que aceitou, recusou e refez. A hipótese se sustentou? Parte por parte.</p>
+
+<h2>4. O que aprendi</h2>
+<p class="falta">Esta precisa ser a seção mais longa, e é sua. Os fatos abaixo estão no registro; o que eles significam para você, não.</p>
+<h3>4.1. O que eu delegaria</h3>
+<p class="falta">Fato: o agente fez o caminho completo em minutos. Com o que você viu ao manter, o que disso delegaria de novo? Com que condição?</p>
+<h3>4.2. O que eu não delegaria</h3>
+<p class="falta">Fato: a partir do pedido da coordenação o agente tomou treze decisões sem perguntar (registro/decisoes-do-agente.md). Quais você teria tomado diferente? Quais só descobriu quando o conferidor mostrou? Fato: ele também escolheu a sua pergunta de pesquisa. O que você pensa disso agora?</p>
+<h3>4.3. Onde me perdi</h3>
+<p class="falta">Onde leu e achou que entendeu? Em quais respostas a confiança era alta e a resposta, errada? O que precisou estudar (transações, HTTP, Origin)?</p>
+<h3>4.4. O que “pronto” passou a querer dizer</h3>
+<p class="falta">Fato: testes verdes com produto inutilizável. Você teria percebido? Como verificaria o próximo trabalho?</p>
+
+<h2>5. Limites e recado</h2>
+<p>A evidência é de uma pessoa, um agente e um sistema pequeno. O mesmo agente escreveu o código, os testes, as perguntas e as manutenções, e as escreveu depois do código: pode ter perguntado só o que sabia bem resolvido. As mutações foram escolhidas por ele, e a proporção de 14 em 16 não mede a qualidade dos testes em geral. As rodadas têm seis perguntas cada, diferentes entre si, de dificuldade não calibrada: servem para relatar, não para medir progresso. As duas manutenções diferem no pedido e no uso de agente, então não comparam trabalhar com e sem ele. Boa parte do código foi construída em uma sessão, e não ao longo das semanas previstas.</p>
+<p class="falta">Recado a quem for começar, em um parágrafo seu.</p>
+
+<h2>6. Como usei IA neste artigo</h2>
+<p>O rascunho das seções 1, 2, 3.1 e 5 e a estrutura das demais foram escritos pelo Claude Code em 25/11/2026, a partir do registro que ele fez.</p>
+<p class="falta">O que você reescreveu, cortou ou conferiu. Se leu os textos das referências.</p>
+
+<h2>Referências</h2><div class="ref">
+<p>DeMillo, R. A., Lipton, R. J. and Sayward, F. G. (1978). Hints on test data selection: help for the practicing programmer. <i>Computer</i>, 11(4):34–41.</p>
+<p>Naur, P. (1985). Programming as theory building. <i>Microprocessing and Microprogramming</i>, 15(5):253–261.</p>
+<p>WHATWG (2026). Fetch Standard. https://fetch.spec.whatwg.org/.</p></div>
+</body></html>

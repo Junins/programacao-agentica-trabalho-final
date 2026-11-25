@@ -81,3 +81,10 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 
 - O que dá para escrever hoje é a metade do agente. A parte sobre quem desenvolve fica
   com lacunas marcadas, porque ainda não aconteceu.
+
+### Etapa 5 — o que aconteceu
+
+- Rascunho em `artigos/artigo-RASCUNHO.pdf`, com as medidas do modelo da SBC refeitas em
+  HTML (não é o arquivo oficial do modelo). A primeira versão saiu com o cabeçalho torto;
+  corrigi depois de olhar o PDF.
+- As referências foram citadas de memória pelo agente; a pessoa precisa conferi-las.
