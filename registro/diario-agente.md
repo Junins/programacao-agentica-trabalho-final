@@ -88,3 +88,13 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
   HTML (não é o arquivo oficial do modelo). A primeira versão saiu com o cabeçalho torto;
   corrigi depois de olhar o PDF.
 - As referências foram citadas de memória pelo agente; a pessoa precisa conferi-las.
+
+## Etapa 6: avisos do professor — previsão (25/11/2026, 16:58 pelo relógio)
+
+- Avisos repassados pela pessoa: um artigo por grupo com relato individualizado separado;
+  27/11/2026 é a primeira entrega, de acompanhamento e apoio; a entrega final é na semana
+  seguinte (dia não informado).
+- Vou separar o relato do artigo, acrescentar o ajuste à proposta sem tocar na hipótese,
+  preparar a página da primeira entrega e refazer a ordem. Espero 5 min.
+- Onde acho que vai dar problema: o aviso não diz formato nem tamanho do relato, e quatro
+  semanas viraram menos de duas para quem está começando agora.
