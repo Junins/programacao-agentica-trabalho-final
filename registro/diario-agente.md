@@ -30,3 +30,17 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 - Tempo: 5 min. Delegação: total; ninguém revisou a etapa 1 ainda.
 - Onde acho que vai dar problema: senha da coordenação e escape de HTML. Vou testar
   com o servidor de verdade, por HTTP, e não só com testes de função.
+
+### Etapa 2 — o que aconteceu (16:48)
+
+- 16 testes (6 por HTTP, com o servidor no ar), todos passaram na primeira execução.
+
+## Etapa 3: verificar a verificação — previsão (antes de executar)
+
+- Vou usar o sistema num Chrome de verdade e estragar o código de propósito, uma linha
+  por vez, para ver se os testes percebem (mutação).
+- Mutação: espero que 1 ou 2 de 10 escapem.
+- Navegador: suspeito que o envio de formulário falhe. O servidor manda
+  `Referrer-Policy: no-referrer` e recusa `Origin` diferente do próprio host; acho que
+  com essa política o navegador envia `Origin: null`. Os testes não mandam `Origin` e
+  por isso não veriam.
