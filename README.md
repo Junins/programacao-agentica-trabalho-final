@@ -26,6 +26,9 @@ Os commits com autor "Claude Code (agente)" são do agente; os outros são meus.
 | sáb 28 e dom 29/11 | `experimento/manutencao-1.md`, sem agente (limite de 3 h) |
 | seg 30/11 | `experimento/manutencao-2.md`, com agente |
 | ter 1/12 | rodada B (`experimento/perguntas-b.md`) |
-| qua 2/12 | relato, artigo e apresentação a partir do diário |
+| qua 2/12 | relato e artigo, a partir do diário |
+| qui 3/12 | completar `apresentacao.md`, ensaiar em 5 min e explicar o código sem agente; tratar o artigo como pronto |
+| sex 4/12 | apresentação |
 
-O dia da entrega final ainda não foi informado. As datas acima são plano, não registro.
+O prazo do último commit (4/12 ou seg 7/12) falta confirmar; o plano fica pronto antes
+dos dois. As datas acima são plano, não registro.

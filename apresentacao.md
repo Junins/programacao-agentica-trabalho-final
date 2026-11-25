@@ -1,4 +1,4 @@
-# Roteiro da apresentação (5 min)
+# Roteiro da apresentação (5 min, sexta 4/12/2026)
 
 Rascunho do agente. Os trechos entre colchetes dependem do meu diário.
 

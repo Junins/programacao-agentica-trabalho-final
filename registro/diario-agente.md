@@ -108,3 +108,10 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 - O relato tem só estrutura e perguntas. O formato dele é suposição minha.
 - O plano anterior punha a rodada A depois da conversa com o professor; mantive, e por
   isso nada foi medido até 27/11.
+
+## Etapa 7: confirmações (25/11/2026, 17:03 pelo relógio)
+
+- A pessoa informou: individual confirmado; apresentação em 04/12/2026.
+- Atualizei proposta (ajuste embaixo), página da primeira entrega, plano e roteiro.
+- Mudança pequena, feita sem previsão registrada.
+- Não sei se o último commit vale até 4/12 ou até 7/12; ficou como pergunta.

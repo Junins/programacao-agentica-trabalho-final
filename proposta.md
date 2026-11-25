@@ -61,3 +61,6 @@ Motivo: avisos do professor. A pergunta e a hipótese acima não mudam.
   versão da hipótese combinada com o professor é a que vale como original.
 - Se o tempo não der, corto a manutenção 2, e a parte da hipótese sobre a segunda
   previsão fica sem resposta. O corte é registrado.
+
+**Segundo ajuste de 25/11/2026** (redigido pelo agente a partir do que a pessoa informou):
+trabalho individual confirmado; apresentação em 04/12/2026. Pergunta e hipótese não mudam.
