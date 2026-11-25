@@ -68,3 +68,16 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 - Cortado: cancelar inscrição, editar atividade, presença por QR code, reabrir o evento,
   envio de e-mail, hospedagem. Motivo: o produto não entra na nota e precisa caber na
   cabeça de uma pessoa só.
+
+## Etapa 4: material do experimento — o que aconteceu
+
+- A previsão desta etapa estava num comando que o shell recusou (o mesmo erro da etapa
+  1). O material foi escrito sem previsão registrada, e não escrevo uma agora.
+- As 12 situações foram executadas por `experimento/conferir.py`; rodou de primeira.
+- As perguntas e manutenções foram escritas depois do código, pelo mesmo agente.
+- O material é para a pessoa; nenhuma resposta dela foi preenchida.
+
+## Etapa 5: rascunho do artigo — previsão
+
+- O que dá para escrever hoje é a metade do agente. A parte sobre quem desenvolve fica
+  com lacunas marcadas, porque ainda não aconteceu.
