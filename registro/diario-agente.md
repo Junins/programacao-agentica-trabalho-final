@@ -44,3 +44,11 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
   `Referrer-Policy: no-referrer` e recusa `Origin` diferente do próprio host; acho que
   com essa política o navegador envia `Origin: null`. Os testes não mandam `Origin` e
   por isso não veriam.
+
+### Etapa 3a: navegador — o que aconteceu (16:49)
+
+- Confirmado com `registro/navegador.mjs` no Chrome 158: `POST /inscrever` → 403
+  "Origem não permitida". Com 16 de 16 testes verdes, o sistema não servia para ninguém.
+- Defeito meu, causado por duas proteções que escrevi e que se anulavam. Se eu tivesse
+  entregue ao fim da etapa 2, teria dito "pronto, 16 testes passando".
+- Ainda sem correção neste commit.
