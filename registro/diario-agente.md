@@ -14,3 +14,19 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 
 - Tempo: 10 min. Espero que os testes achem 1 ou 2 erros meus.
 - Onde acho que vai dar problema: conflito de horário entre atividades e contagem de vagas.
+
+### Etapa 1 — o que aconteceu (16:47)
+
+- Primeira tentativa de gravar os arquivos por um comando único do shell foi recusada
+  (`unexpected EOF while looking for matching`); nada foi gravado. Reescrevi com a
+  ferramenta de escrita de arquivos. Não investiguei a causa.
+- 10 testes, todos passaram na primeira execução. Previsão errada nos dois pontos:
+  levou cerca de 1 min e meio, e os testes não acharam erro.
+- Ressalva: os testes foram escritos por quem escreveu o código, na mesma hora. Passar
+  de primeira pode significar só que os dois têm o mesmo ponto cego.
+
+## Etapa 2: servidor e páginas — previsão (antes de escrever)
+
+- Tempo: 5 min. Delegação: total; ninguém revisou a etapa 1 ainda.
+- Onde acho que vai dar problema: senha da coordenação e escape de HTML. Vou testar
+  com o servidor de verdade, por HTTP, e não só com testes de função.
