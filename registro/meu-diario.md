@@ -28,6 +28,8 @@ Depois de conferir: o que me surpreendeu?
 
 Previsão antes de ler o pedido: ___ · Previsão depois de ler: ___ · Tempo real: ___
 
+Tempo real dividido: travado em Python ___ · travado em regra ou SQL ___ · no resto ___
+
 - Arquivos que achei que mexeria / que mexi:
 - Onde travei:
 - O que precisei aprender:
