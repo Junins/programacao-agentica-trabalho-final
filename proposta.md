@@ -84,7 +84,7 @@ outra pessoa, e as minhas estimativas de prazo não erraram.
 
 1. Nas rodadas de perguntas, espero errar nas regras que o agente decidiu sem me
    perguntar, e não por causa da linguagem. Mesmo sabendo pouco de Python, espero
-   entender o que cada trecho faz, porque _[meu motivo]_; o que não dá para deduzir
+   entender o que cada trecho faz, porque já li código Python antes; o que não dá para deduzir
    lendo é o que o agente escolheu quando o pedido não dizia.
 2. Espero que a minha confiança acompanhe os meus acertos: alta onde acerto, baixa onde
    erro, porque estou acostumado(a) a ler o código que um agente escreve.
