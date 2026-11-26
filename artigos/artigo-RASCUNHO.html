@@ -23,16 +23,19 @@ ul{margin:4pt 0 0;padding-left:1cm}li{margin-top:2pt}.ref p{text-indent:-.5cm;pa
 
 <p class="resumo"><b>Abstract.</b> <span class="falta">[versão em inglês do resumo final; o modelo da SBC pede as duas em artigos em português]</span></p>
 <h2>1. Curiosidade e hipótese</h2>
-<p>A proposta é de 25 de novembro de 2026 (commit <code>093d28b</code>, anterior a qualquer código). O texto dela foi redigido pelo agente; a pergunta e a hipótese foram:</p>
+<p>A proposta é de 25 de novembro de 2026 (commit <code>093d28b</code>, anterior a qualquer código). O texto dela foi redigido pelo agente, sem saber nada de mim; a pergunta e a hipótese foram:</p>
 <blockquote><p><b>Pergunta:</b> consigo explicar e manter um código que um agente escreveu quase sozinho, a partir de um pedido curto?</p>
 <p><b>Hipótese:</b> espero conseguir explicar o caminho principal (inscrição, presença, certificado) e errar nas regras que o agente decidiu sem me perguntar, porque um pedido curto deixa buracos e quem preenche é ele. Espero também que a primeira manutenção sem agente leve mais tempo do que eu prever, e que a previsão da segunda erre menos, porque nessa altura já terei lido o código.</p></blockquote>
-<p class="falta">Assumi ou mudei? Se mudou: versão nova, data e motivo. Versão combinada com o professor e data.</p>
+<p>Em 26/11/2026 revi a hipótese, antes de qualquer medição, porque a parte sobre prazo contrariava a minha experiência e o “porquê” não era meu. Parto de pouco Python e bastante SQL e HTTP; já usei agentes para programar, na maioria das vezes lendo o código deles; já mantive código de outra pessoa, e as minhas estimativas de prazo não erraram. A versão revista foi redigida pelo agente a meu pedido, a partir dessas respostas; o motivo do item 1 é meu, os dos itens 3 e 4 foram deduzidos por ele e confirmados por mim, e eu a assumi no mesmo dia:</p>
+<blockquote><p>(1) Nas rodadas de perguntas, espero errar nas regras que o agente decidiu sem me perguntar, e não por causa da linguagem: mesmo sabendo pouco de Python, espero entender o que cada trecho faz, porque já li código Python antes; o que não dá para deduzir lendo é o que o agente escolheu quando o pedido não dizia. (2) Espero que a minha confiança acompanhe os meus acertos, porque costumo ler o código que um agente escreve. (3) Na manutenção 1, sem agente, espero levar mais tempo do que vou prever, embora as minhas estimativas costumem acertar, porque ler Python é diferente de escrever. (4) Na manutenção 2, com agente, espero que a previsão erre menos, porque quem escreve o Python é o agente, e o meu tempo vai para entender e conferir.</p></blockquote>
+<p class="falta">Versão combinada com o professor em 27/11 e ajustes, se houver.</p>
 <p>A pergunta tem um antecedente antigo. Para Naur (1985), o que quem programa constrói é uma teoria do programa, e ela não está toda no texto do código. Se for assim, receber código pronto não é receber a teoria.</p>
 
 <h2>2. Cenário e como observei</h2>
 <p>A pessoa do cenário é fictícia: a coordenação de um curso, que organiza a semana acadêmica com formulário, planilha e certificado feito à mão e pede “inscrição, presença e certificado num lugar só”, com certificado “só pra quem veio mesmo”. O cenário parte da sugestão 8 da disciplina. O produto é um sistema web em Python, sem dependências externas e sem IA dentro: o problema é de regras e registro.</p>
 <p>Trabalhei individualmente; não houve parte feita em grupo. O relato em primeira pessoa está em arquivo separado (<code>relatos/</code>), formato que o professor passou a permitir. A divisão foi entre mim e o agente (Claude Code 2.1.332, modelo claude-opus-5-5, Windows 10, Python 3.13). Os commits dele saem com autor “Claude Code (agente)”, de modo que o <code>git blame</code> separa as linhas. Observo a mim com duas rodadas de seis perguntas respondidas sem executar o programa, conferidas depois por um script que executa as situações, e com duas manutenções, uma sem agente e outra com.</p>
-<p class="falta">O que foi ajustado com o professor. Teto de gasto: ___. Gasto: ___. Horas: ___.</p>
+<p>Defini como teto de gasto o valor de uma mensalidade da assinatura Claude Pro, sem nenhum gasto além dela. Antes da rodada A, pedi ao agente uma explicação do projeto; ele explicou a estrutura do repositório, a ordem do experimento e as camadas do código, mas não as regras, que são o que a rodada A pergunta.</p>
+<p class="falta">O que foi ajustado com o professor. Gasto efetivo e se bati no limite de uso. Horas.</p>
 
 <h2>3. O que aconteceu</h2>
 <h3>3.1. A parte do agente, em 25/11/2026</h3>
@@ -56,11 +59,11 @@ ul{margin:4pt 0 0;padding-left:1cm}li{margin-top:2pt}.ref p{text-indent:-.5cm;pa
 <h2>4. O que aprendi</h2>
 <p class="falta">Resuma aqui, em texto corrido, os achados que respondem à pergunta, citando o relato: o que se confirmou, o que mudou, o que surpreendeu. Os episódios em primeira pessoa ficam no relato individual. Confirme com o professor se a seção continua tendo de ser a mais longa.</p>
 <h2>5. Limites e recado</h2>
-<p>A evidência é de uma pessoa, um agente e um sistema pequeno. O mesmo agente escreveu o código, os testes, as perguntas e as manutenções, e as escreveu depois do código: pode ter perguntado só o que sabia bem resolvido. As mutações foram escolhidas por ele, e a proporção de 14 em 16 não mede a qualidade dos testes em geral. As rodadas têm seis perguntas cada, diferentes entre si, de dificuldade não calibrada: servem para relatar, não para medir progresso. As duas manutenções diferem no pedido e no uso de agente, então não comparam trabalhar com e sem ele. Boa parte do código foi construída em uma sessão, e não ao longo das semanas previstas.</p>
+<p>A evidência é de uma pessoa, um agente e um sistema pequeno. O mesmo agente escreveu o código, os testes, as perguntas e as manutenções, e as escreveu depois do código: pode ter perguntado só o que sabia bem resolvido. As mutações foram escolhidas por ele, e a proporção de 14 em 16 não mede a qualidade dos testes em geral. As rodadas têm seis perguntas cada, diferentes entre si, de dificuldade não calibrada: servem para relatar, não para medir progresso. As duas manutenções diferem no pedido e no uso de agente, então não comparam trabalhar com e sem ele. Boa parte do código foi construída em uma sessão, e não ao longo das semanas previstas. A rodada A não mede leitura a frio: veio depois de uma explicação parcial do agente.</p>
 <p class="falta">Recado a quem for começar, em um parágrafo seu.</p>
 
 <h2>6. Como usei IA neste artigo</h2>
-<p>O rascunho das seções 1, 2, 3.1 e 5 e a estrutura das demais foram escritos pelo Claude Code em 25/11/2026, a partir do registro que ele fez.</p>
+<p>O rascunho das seções 1, 2, 3.1 e 5 e a estrutura das demais foram escritos pelo Claude Code em 25/11/2026, a partir do registro que ele fez. Em 26/11, a meu pedido, ele acrescentou às seções 1, 2 e 5 a hipótese revista, o teto de gasto e a explicação parcial anterior à rodada A, tirados do registro.</p>
 <p class="falta">O que você reescreveu, cortou ou conferiu. Se leu os textos das referências.</p>
 
 <h2>Referências</h2><div class="ref">
