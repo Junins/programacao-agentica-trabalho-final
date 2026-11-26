@@ -41,7 +41,7 @@ conferência do certificado. Dados fictícios.
 **Onde aperta.** Sou uma pessoa só, então o resultado vale para mim. Quem escreveu as
 perguntas e as manutenções foi o mesmo agente que escreveu o código.
 
-**Teto de gasto:** _a definir por mim antes de continuar._
+**Teto de gasto:** o valor de uma mensalidade da assinatura Claude Pro, sem nenhum gasto além dela (sem API paga e sem uso extra). Definido por mim em 26/11/2026, registrado pelo agente a meu pedido.
 
 ---
 

@@ -6,7 +6,7 @@ Só eu escrevo aqui. Um commit por anotação; previsão sempre antes da etapa.
 
 - Data e hora:
 - Assumo a pergunta e a hipótese da proposta? O que mudei e por quê:
-- Teto de gasto:
+- Teto de gasto: o valor de uma mensalidade da assinatura Claude Pro, sem nenhum gasto além dela (sem API paga e sem uso extra). Definido em 26/11/2026 (registrado pelo agente a meu pedido).
 - Gasto até aqui (`/cost`), inclusive a sessão do agente de 25/11:
 
 ## Rodada A
