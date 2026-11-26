@@ -1,10 +1,12 @@
 # Roteiro da apresentação (5 min, sexta 4/12/2026)
 
-Rascunho do agente. Os trechos entre colchetes dependem do meu diário.
+Rascunho do agente (25/11; item 1 atualizado em 26/11 com a hipótese revista).
+Os trechos entre colchetes dependem do meu diário.
 
 1. **Curiosidade e hipótese (0:45).** Pedi uma frase ao agente e ele fez o resto.
-   Consigo explicar e manter? Esperava acertar o caminho principal e errar nas decisões
-   que ele tomou sozinho.
+   Consigo explicar e manter? Revi a hipótese do agente com o que sei: espero errar
+   nas regras que ele decidiu, não no Python; minha confiança acompanhar meus acertos;
+   e, sem agente, levar mais tempo do que vou prever, porque terei de escrever Python.
 2. **Cenário e produto (0:45).** Coordenação, semana acadêmica: inscrição, chamada,
    certificado. Mostrar `python servidor.py` rodando, com dados fictícios.
 3. **O que aconteceu (1:45).** Agente: 16 testes verdes e formulário recusado no Chrome
