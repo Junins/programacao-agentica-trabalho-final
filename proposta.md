@@ -87,12 +87,15 @@ outra pessoa, e as minhas estimativas de prazo não erraram.
    entender o que cada trecho faz, porque já li código Python antes; o que não dá para deduzir
    lendo é o que o agente escolheu quando o pedido não dizia.
 2. Espero que a minha confiança acompanhe os meus acertos: alta onde acerto, baixa onde
-   erro, porque estou acostumado(a) a ler o código que um agente escreve.
+   erro, porque costumo ler o código que um agente escreve.
 3. Na manutenção 1, sem agente, espero levar mais tempo do que vou prever, embora as
    minhas estimativas costumem acertar. O motivo: ler Python é diferente de escrever, e
    para mudar o código terei de escrever numa linguagem que conheço pouco.
 4. Na manutenção 2, com agente, espero que a previsão erre menos, porque quem escreve o
    Python é o agente, e o meu tempo vai para entender e conferir.
+
+O motivo do item 1 é meu. Os motivos dos itens 3 e 4 foram deduzidos pelo agente e
+confirmados por mim em 26/11/2026.
 
 ---
 
