@@ -115,3 +115,8 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 - Atualizei proposta (ajuste embaixo), página da primeira entrega, plano e roteiro.
 - Mudança pequena, feita sem previsão registrada.
 - Não sei se o último commit vale até 4/12 ou até 7/12; ficou como pergunta.
+
+## Etapa 8: repositório remoto (26/11/2026 00:04)
+
+- A pedido da pessoa: instalei o GitHub CLI 2.106.0 (winget); ela fez o login.
+- Criado privado em GitHub, com push dos 9 commits. O professor ainda não tem acesso.
