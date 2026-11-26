@@ -64,3 +64,37 @@ Motivo: avisos do professor. A pergunta e a hipótese acima não mudam.
 
 **Segundo ajuste de 25/11/2026** (redigido pelo agente a partir do que a pessoa informou):
 trabalho individual confirmado; apresentação em 04/12/2026. Pergunta e hipótese não mudam.
+
+---
+
+## Hipótese revista em 26/11/2026
+
+**Quem escreveu.** Redigida pelo agente a meu pedido, a partir das minhas respostas de
+26/11 (registradas na etapa 9 do diário do agente). A pergunta não muda. A hipótese
+de 25/11 fica acima, como estava.
+
+**Motivo.** A de 25/11 foi escrita pelo agente sem saber nada de mim. A parte sobre
+prazo contrariava a minha experiência, e o "porquê" não era meu.
+
+**De onde parto.** Sei pouco de Python e bastante de SQL e HTTP. Já usei agentes para
+programar e na maioria das vezes lia o código que eles escreviam. Já mantive código de
+outra pessoa, e as minhas estimativas de prazo não erraram.
+
+**Hipótese:**
+
+1. Nas rodadas de perguntas, espero errar nas regras que o agente decidiu sem me
+   perguntar, e não por causa da linguagem. Mesmo sabendo pouco de Python, espero
+   entender o que cada trecho faz, porque a lógica passa por SQL e HTTP, que conheço;
+   o que não dá para deduzir lendo é o que o agente escolheu quando o pedido não dizia.
+2. Espero que a minha confiança acompanhe os meus acertos: alta onde acerto, baixa onde
+   erro, porque estou acostumado(a) a ler o código que um agente escreve.
+3. Na manutenção 1, sem agente, espero levar mais tempo do que vou prever, embora as
+   minhas estimativas costumem acertar. O motivo: ler Python é diferente de escrever, e
+   para mudar o código terei de escrever numa linguagem que conheço pouco.
+4. Na manutenção 2, com agente, espero que a previsão erre menos, porque quem escreve o
+   Python é o agente, e o meu tempo vai para entender e conferir.
+
+---
+
+**Combinado com o professor em:** _data_ · **Ajustes:** _ ·
+**Li e assumo a hipótese de 26/11:** _nome e data_
