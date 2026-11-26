@@ -13,14 +13,14 @@ Só eu escrevo aqui. Um commit por anotação; previsão sempre antes da etapa.
 
 Tempo de leitura: ___ · Como li (ordem dos arquivos):
 
-| # | Minha resposta | Confiança (0–100) | Acertei? |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
+| # | Minha resposta | Confiança (0–100) | Acertei? | Se errei, por quê: Python, SQL/HTTP ou regra |
+|---|---|---|---|---|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
+| 6 | | | | |
 
 Depois de conferir: o que me surpreendeu?
 
@@ -41,13 +41,13 @@ Previsão antes de ler: ___ · Depois de ler: ___ · Tempo real: ___
 
 ## Rodada B
 
-| # | Minha resposta | Confiança (0–100) | Acertei? |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
+| # | Minha resposta | Confiança (0–100) | Acertei? | Se errei, por quê: Python, SQL/HTTP ou regra |
+|---|---|---|---|---|
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+| 4 | | | | |
+| 5 | | | | |
+| 6 | | | | |
 
 ## Checkpoints e perguntas da turma
