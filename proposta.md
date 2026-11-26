@@ -100,4 +100,4 @@ confirmados por mim em 26/11/2026.
 ---
 
 **Combinado com o professor em:** _data_ · **Ajustes:** _ ·
-**Li e assumo a hipótese de 26/11:** _nome e data_
+**Li e assumo a hipótese de 26/11:** Junins, 26/11/2026 (pedido feito por mim ao agente, que registrou)
