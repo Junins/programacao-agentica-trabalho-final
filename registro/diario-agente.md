@@ -120,3 +120,18 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 
 - A pedido da pessoa: instalei o GitHub CLI 2.106.0 (winget); ela fez o login.
 - Criado privado em GitHub, com push dos 9 commits. O professor ainda não tem acesso.
+
+## Etapa 9: explicação antes da rodada A (26/11/2026 01:09)
+
+- A pessoa pediu a explicação do projeto. Expliquei o repositório, a ordem do experimento,
+  o produto visto por fora, as camadas do código (servidor, serviço, banco, páginas) e a
+  construção (formulário quebrado, mutação). Não expliquei o que cada função de
+  `servico.py` aceita ou recusa, nem as decisões: é o que a rodada A pergunta.
+- A pessoa escolheu proteger o experimento: a explicação completa fica para depois de
+  conferir a rodada A.
+- Consequência para o artigo: a rodada A não mede leitura a frio; vem depois dessa
+  explicação parcial.
+- Também antes da rodada A, a pessoa informou: sabe pouco de Python e bastante de SQL e
+  HTTP; já usou agentes e costumava ler o código deles; já manteve código de outra pessoa
+  e as estimativas de prazo não erraram; espera errar nas regras; quer manter as duas
+  manutenções. A hipótese nova é dela e ainda não foi escrita.
