@@ -153,4 +153,4 @@ registrar o que acontecer.
 | sex 4/12 | apresentação |
 
 **Combinado com o professor:** sem conversa à parte; vale a orientação dele por mensagem, repassada em 26/11/2026 (diário do agente, etapa 10). Pendências descartadas em 27/11/2026 a pedido da pessoa. ·
-**Li e assumo este ajuste:** _nome e data_
+**Li e assumo este ajuste:** Junins, 27/11/2026 (pedido feito por mim ao agente, que registrou)
