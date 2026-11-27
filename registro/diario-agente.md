@@ -135,3 +135,19 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
   HTTP; já usou agentes e costumava ler o código deles; já manteve código de outra pessoa
   e as estimativas de prazo não erraram; espera errar nas regras; quer manter as duas
   manutenções. A hipótese nova é dela e ainda não foi escrita.
+
+## Etapa 10: orientação do professor e skills (26/11/2026)
+
+- A pessoa repassou duas mensagens do professor: usar IA para se apropriar do
+  repositório e fazer coisa nova, apresentando as ferramentas que ajudaram; e o voicebox
+  como exemplo de skills e metodologia de onboarding em código legado.
+- Li o voicebox por um subagente de busca na web: `.agents/skills/` com quatro skills de
+  tarefa (`add-tts-engine`, `draft-release-notes`, `release-bump`, `triage-prs`); abri
+  só `add-tts-engine/SKILL.md`. Não achei skill de onboarding nem CLAUDE.md/AGENTS.md,
+  mas não li o repositório inteiro.
+- A pessoa escolheu: eu rascunho as skills e ela reescreve; fica como proposta para 27/11.
+- Escrevi cinco rascunhos em `.agents/skills/` e o ajuste em `proposta.md`. Não rodei
+  nenhuma skill. Evitei citar regras de `produto/` nos rascunhos.
+- Sem previsão registrada: mudança de texto.
+- Ficaram em aberto: voicebox entra ou não (deixei opcional) e o item 5 da hipótese,
+  que é da pessoa.

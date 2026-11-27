@@ -101,3 +101,51 @@ confirmados por mim em 26/11/2026.
 
 **Combinado com o professor em:** _data_ · **Ajustes:** _ ·
 **Li e assumo a hipótese de 26/11:** Junins, 26/11/2026 (pedido feito por mim ao agente, que registrou)
+
+---
+
+## Proposta de ajuste de 26/11/2026 (para levar ao professor em 27/11)
+
+**Quem escreveu.** Redigida pelo agente a meu pedido. Ainda não vale: só passa a valer
+se o professor concordar, e aí eu assino embaixo. Nada foi medido até aqui.
+
+**Motivo.** Orientação do professor: usar IA agêntica para me apropriar de um
+repositório a ponto de fazer coisa nova nele, e apresentar as ferramentas que me
+ajudaram a entender. Ele indicou como exemplo o voicebox
+(https://github.com/jamiepine/voicebox), que tem skills de agente em `.agents/skills/`.
+Resumo dele: skills ou metodologia que descrevam, expliquem e ensinem um código legado
+a quem vai ficar responsável por ele.
+
+**Pergunta nova:** como uso IA agêntica, com skills e uma metodologia, para me apropriar
+de um código legado que um agente escreveu, a ponto de fazer algo novo nele? A pergunta
+antiga ("consigo explicar e manter?") vira a medida, e a hipótese de 26/11 continua.
+
+**O que muda.**
+- Cinco skills em `.agents/skills/` (`mapear`, `explicar-fluxo`, `ensinar`,
+  `decisoes-implicitas`, `preparar-mudanca`). Rascunhadas pelo agente; eu reescrevo
+  cada uma antes de usar, em commit meu.
+- A rodada A continua sem IA, como linha de base, e vem antes de qualquer skill rodar em
+  `produto/`.
+- Para cada skill usada, anoto: tempo, o que aprendi, o que ela errou ou inventou, se
+  usaria de novo. Isso vira a tabela de ferramentas do artigo e da apresentação.
+- Na manutenção 1 eu escrevo o código; as skills só ajudam a entender e preparar.
+- Opcional, se sobrar tempo: rodar `mapear` e `explicar-fluxo` no voicebox, só leitura,
+  para ver se servem fora deste projeto.
+
+**Item 5 da hipótese (meu, a escrever):** a skill que mais vai me ajudar é ___, porque ___.
+Também espero que as skills reescritas por mim ___ em relação ao rascunho do agente.
+
+**Sequência proposta.**
+
+| Quando | O quê |
+|---|---|
+| sex 27/11 | conversa com o professor; rodada A sem IA |
+| sáb 28/11 | reescrever as skills; ler `registro/decisoes-do-agente.md` só depois de rodar `decisoes-implicitas` |
+| dom 29/11 | usar as skills em `produto/` e anotar cada uso |
+| seg 30/11 | manutenção 1 (eu escrevo; skills para entender) |
+| ter 1/12 | manutenção 2 (agente escreve) e rodada B |
+| qua 2 a qui 3/12 | relato, artigo e ensaio, com a tabela de skills no centro |
+| sex 4/12 | apresentação |
+
+**Combinado com o professor em:** _data_ · **Ajustes:** _ ·
+**Li e assumo este ajuste:** _nome e data_

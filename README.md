@@ -11,6 +11,7 @@ Trabalho final de Programação Agêntica (IFSul, Passo Fundo). Individual.
 | `artigos/` | artigo |
 | `relatos/` | relato individual |
 | `entregas/` | página da primeira entrega |
+| `.agents/skills/` | proposta: skills de onboarding (rascunho do agente, a reescrever) |
 
 Rodar: `cd produto && python servidor.py` · Testar: `cd produto && python -m unittest`
 
@@ -31,4 +32,5 @@ Os commits com autor "Claude Code (agente)" são do agente; os outros são meus.
 | sex 4/12 | apresentação |
 
 O prazo do último commit (4/12 ou seg 7/12) falta confirmar; o plano fica pronto antes
-dos dois. As datas acima são plano, não registro.
+dos dois. As datas acima são plano, não registro. Se o ajuste das skills for aceito em
+27/11, vale a sequência da "Proposta de ajuste" em `proposta.md`.
