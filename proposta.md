@@ -132,8 +132,12 @@ antiga ("consigo explicar e manter?") vira a medida, e a hipótese de 26/11 cont
 - Opcional, se sobrar tempo: rodar `mapear` e `explicar-fluxo` no voicebox, só leitura,
   para ver se servem fora deste projeto.
 
-**Item 5 da hipótese (meu, a escrever):** a skill que mais vai me ajudar é ___, porque ___.
-Também espero que as skills reescritas por mim ___ em relação ao rascunho do agente.
+**Item 5 da hipótese** (respostas minhas de 27/11/2026, dadas antes de usar qualquer
+skill; redação do agente, a meu pedido): espero que a skill que mais me ajude a me
+apropriar do código seja `ensinar`, porque ela ataca o meu ponto fraco, que é o Python.
+Vou saber que ajudou se, depois de usá-la, eu entender onde errei na rodada A. Não tenho
+expectativa sobre as skills reescritas por mim em relação ao rascunho do agente; vou só
+registrar o que acontecer.
 
 **Sequência proposta.**
 
