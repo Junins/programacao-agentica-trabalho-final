@@ -151,3 +151,14 @@ Gasto: não é visível para o agente; a pessoa deve anotar o valor mostrado por
 - Sem previsão registrada: mudança de texto.
 - Ficaram em aberto: voicebox entra ou não (deixei opcional) e o item 5 da hipótese,
   que é da pessoa.
+
+## Etapa 11: pendências com o professor descartadas (27/11/2026)
+
+- A pessoa informou que o que dependia do professor eram as mensagens dele, já
+  repassadas, e pediu para descartar o resto. Não houve conversa à parte.
+- Marquei o ajuste das skills como adotado em `proposta.md`; preenchi as linhas
+  "Combinado com o professor" com isso. As assinaturas "Li e assumo" do ajuste de
+  25/11 e do de 26/11 (skills) ficam para a pessoa.
+- Na página da primeira entrega, troquei as 8 perguntas por uma nota de descarte; onde
+  não houver orientação, vale o enunciado. Plano do README trocado pela sequência das
+  skills. Rodada A: hoje, mais tarde, sem IA.

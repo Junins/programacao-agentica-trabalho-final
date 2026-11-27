@@ -45,7 +45,7 @@ perguntas e as manutenções foi o mesmo agente que escreveu o código.
 
 ---
 
-**Combinado com o professor em:** _data_ · **Ajustes:** _ ·
+**Combinado com o professor:** sem conversa à parte; vale a orientação dele por mensagem, repassada em 26/11/2026 (diário do agente, etapa 10). Pendências descartadas em 27/11/2026 a pedido da pessoa. ·
 **Li e assumo a pergunta e a hipótese:** _nome e data_
 
 ---
@@ -99,15 +99,16 @@ confirmados por mim em 26/11/2026.
 
 ---
 
-**Combinado com o professor em:** _data_ · **Ajustes:** _ ·
+**Combinado com o professor:** sem conversa à parte; vale a orientação dele por mensagem, repassada em 26/11/2026 (diário do agente, etapa 10). Pendências descartadas em 27/11/2026 a pedido da pessoa. ·
 **Li e assumo a hipótese de 26/11:** Junins, 26/11/2026 (pedido feito por mim ao agente, que registrou)
 
 ---
 
-## Proposta de ajuste de 26/11/2026 (para levar ao professor em 27/11)
+## Ajuste de 26/11/2026: skills de onboarding (adotado em 27/11)
 
-**Quem escreveu.** Redigida pelo agente a meu pedido. Ainda não vale: só passa a valer
-se o professor concordar, e aí eu assino embaixo. Nada foi medido até aqui.
+**Quem escreveu.** Redigida pelo agente a meu pedido, em 26/11. Adotada em 27/11/2026,
+antes da rodada A: não há o que combinar com o professor além das mensagens dele.
+Nada foi medido até aqui.
 
 **Motivo.** Orientação do professor: usar IA agêntica para me apropriar de um
 repositório a ponto de fazer coisa nova nele, e apresentar as ferramentas que me
@@ -151,5 +152,5 @@ registrar o que acontecer.
 | qua 2 a qui 3/12 | relato, artigo e ensaio, com a tabela de skills no centro |
 | sex 4/12 | apresentação |
 
-**Combinado com o professor em:** _data_ · **Ajustes:** _ ·
+**Combinado com o professor:** sem conversa à parte; vale a orientação dele por mensagem, repassada em 26/11/2026 (diário do agente, etapa 10). Pendências descartadas em 27/11/2026 a pedido da pessoa. ·
 **Li e assumo este ajuste:** _nome e data_

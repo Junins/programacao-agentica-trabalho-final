@@ -1,6 +1,6 @@
-# Skills de onboarding em código legado (PROPOSTA)
+# Skills de onboarding em código legado
 
-Rascunho do agente (Claude Code), 26/11/2026, a meu pedido. Eu vou reescrever cada uma;
+Rascunho do agente (Claude Code), 26/11/2026, a meu pedido; adotado em 27/11. Eu vou reescrever cada uma;
 a versão que valer é a minha, num commit meu. Nada aqui foi usado ainda.
 
 Motivo: orientação do professor de usar IA agêntica para me apropriar de um repositório
